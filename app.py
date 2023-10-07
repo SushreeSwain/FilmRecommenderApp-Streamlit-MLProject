@@ -5,7 +5,7 @@
 # We also grab the FileOpen command, to invoke our Python editor
 " The PythonWin application code. Manages most aspects of MDI, etc "
 import sys
-#import string
+
 import os
 from pywin.mfc import window, dialog, afxres
 from pywin.mfc.thread import WinApp
