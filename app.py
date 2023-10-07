@@ -4,7 +4,7 @@
 #
 # We also grab the FileOpen command, to invoke our Python editor
 " The PythonWin application code. Manages most aspects of MDI, etc "
-import win32con
+
 import win32api
 import win32ui
 import sys
