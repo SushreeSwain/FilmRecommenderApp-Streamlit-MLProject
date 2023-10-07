@@ -7,8 +7,6 @@
 import sys
 
 import os
-from pywin.mfc import window, dialog, afxres
-from pywin.mfc.thread import WinApp
 import traceback
 import regutil
 
