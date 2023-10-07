@@ -4,13 +4,6 @@
 #
 # We also grab the FileOpen command, to invoke our Python editor
 " The PythonWin application code. Manages most aspects of MDI, etc "
-import sys
-
-import os
-import traceback
-import regutil
-
-from . import scriptutils
 
 ## NOTE: App and AppBuild should NOT be used - instead, you should contruct your
 ## APP class manually whenever you like (just ensure you leave these 2 params None!)
